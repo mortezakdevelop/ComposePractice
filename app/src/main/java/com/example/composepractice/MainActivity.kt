@@ -15,6 +15,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.composepractice.ui.list_screen.ListScreen
 import com.example.composepractice.ui.main.MainScreen
+import com.example.composepractice.ui.navigation.AppNavigation
 import com.example.composepractice.ui.theme.ComposePracticeTheme
 
 class MainActivity : ComponentActivity() {
@@ -23,7 +24,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             ComposePracticeTheme {
                 // A surface container using the 'background' color from the theme
-                ListScreen()
+                AppNavigation()
             }
         }
     }
